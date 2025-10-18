@@ -2,6 +2,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
     "react": "^19.2.0",
-    "tailwindcss": "^4.1.14"
+    "tailwindcss": "^4.1.14",
+    "@remix-run/dev": "^3.10.3",
+    "@remix-run/react": "^3.10.3"
   }
 }
