@@ -36,6 +36,11 @@ function Home() {
             route="/gallery/staffday2025"
             src="https://lh3.googleusercontent.com/d/1DDeqAj-J_kBQTwTjPImG5g6CPtWBTP8v=w1000"
           />
+          <Card
+            title="Staff Day 2025"
+            route="/gallery/staffday2025"
+            src="https://drive.google.com/thumbnail?id=172oik-1TpDpPZo3HoDL5aaagngGGqjmf"
+          />
         </div>
       </div>
     </>
