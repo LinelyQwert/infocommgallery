@@ -39,7 +39,7 @@ function Home() {
           <Card
             title="Staff Day 2025"
             route="/gallery/staffday2025"
-            src="https://drive.google.com/thumbnail?id=172oik-1TpDpPZo3HoDL5aaagngGGqjmf"
+            src="https://drive.google.com/thumbnail?id=1GIcfYWaJKPsyIPffwy_jD8pDHm-ZZJWX&sz=w1000"
           />
         </div>
       </div>
