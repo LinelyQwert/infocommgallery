@@ -1,2 +1,2 @@
-Farewell2025.tsx
-StaffDay2025.tsx
+import Farewell2025 from './pages/gallery/Farewell2025.tsx';
+import StaffDay2025 from './pages/gallery/StaffDay2025.tsx';

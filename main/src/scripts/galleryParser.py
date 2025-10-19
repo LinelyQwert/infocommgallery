@@ -29,6 +29,7 @@ if __name__ == "__main__":
             print(file)
         with open("./main/src/scripts/outputs/gallery_files.txt", "w") as f:
             for file in tsx_files:
-                f.write(f"{file}\n")
+                f.write(f"import {file.replace('.tsx', '')} from './pages/gallery/{file}';\n")
+                # f.write(f"{file}\n")
     except ValueError as e:
         print(e)

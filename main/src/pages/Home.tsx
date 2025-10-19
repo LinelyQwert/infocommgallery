@@ -27,13 +27,13 @@ function Home() {
         </div>
         <div className="flex flex-wrap gap-4 items-centre justify-center mt-10 mx-10">
           <Card
-            title=""
-            route=""
+            title="Farewell 2025"
+            route="/gallery/farewell2025"
             src="https://lh3.googleusercontent.com/d/1wBdwDWbTkREFAtLtghTKtU2BwqAZEMIF=w1000"
           />
           <Card
-            title=""
-            route=""
+            title="Staff Day 2025"
+            route="/gallery/staffday2025"
             src="https://lh3.googleusercontent.com/d/1DDeqAj-J_kBQTwTjPImG5g6CPtWBTP8v=w1000"
           />
         </div>
