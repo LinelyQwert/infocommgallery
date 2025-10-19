@@ -2,8 +2,10 @@ import Bar from "../components/Bar.tsx";
 
 import Card from "../components/Card.tsx";
 
+import CardChip from "../components/CardChip.tsx";
+
 function Home() {
-  // to do: test gallery chips, make a home icon to go back to home page, google api to link photos
+  // to do: test gallery chips, make a home icon to go back to home page, use js map func to create cards automatically
   return (
     <>
       <div
@@ -36,10 +38,11 @@ function Home() {
             route="/gallery/staffday2025"
             src="https://lh3.googleusercontent.com/d/1DDeqAj-J_kBQTwTjPImG5g6CPtWBTP8v=w1000"
           />
-          <Card
-            title="Staff Day 2025"
-            route="/gallery/staffday2025"
-            src="https://drive.google.com/thumbnail?id=1GIcfYWaJKPsyIPffwy_jD8pDHm-ZZJWX&sz=w1000"
+          <CardChip
+            author=""
+            alt=""
+            src="https://lh3.googleusercontent.com/d/1wBdwDWbTkREFAtLtghTKtU2BwqAZEMIF=w1000"
+            downlink=""
           />
         </div>
       </div>
