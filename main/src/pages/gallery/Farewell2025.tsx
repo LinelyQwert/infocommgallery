@@ -2,7 +2,8 @@ import CardChip from "../../components/CardChip";
 
 import { Link } from "react-router-dom";
 
-import file_attrs from "../../scripts/scriptResources/file_attr.json";
+import file_attrs from "./galleryJSONs/farewell2025.json";
+
 import HeaderImage from "../../components/HeaderImage";
 
 function Farewell2025() {
@@ -15,20 +16,22 @@ function Farewell2025() {
         id="background"
         className="fixed top-0 left-0 w-full h-full -z-10 bg-zinc-900 bg-[length:400%_400%]"
       ></div>
+
       <Link
         to="/"
         className="absolute text-white text-start m-4 px-4 font-mono font-bold bg-black/50 z-10"
       >
         {"<-- Back!"}
       </Link>
+
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="/farewell2025/Rayner_11-25_pic1.osdovksdokvs'.JPG.jpg"
+        src="/farewell2025/rayner_11-25_pic1.osdovksdokvs'.JPG.jpg"
         authors="Andrea, Hannah, Matthew and Rayner"
         title="Farewell 2025"
       ></HeaderImage>
-      {/* EDIT THIS FOR NEW PAGES
-      <Header title="Farewell 2025" subtext="10 October 2025"></Header>{" "} */}
+      {/* EDIT THIS FOR NEW PAGES */}
+
       <div className="flex flex-wrap gap-4 items-centre justify-center mt-10 mx-10">
         {shuffledImageList.map((img, index) => {
           return (
