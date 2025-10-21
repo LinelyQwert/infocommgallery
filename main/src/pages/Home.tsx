@@ -1,5 +1,3 @@
-import Bar from "../components/Bar.tsx";
-
 import Card from "../components/Card.tsx";
 
 import CardChip from "../components/CardChip.tsx";
