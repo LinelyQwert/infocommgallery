@@ -1,5 +1,4 @@
 import CardChip from "../../components/CardChip";
-import Header from "../../components/Header";
 
 import { Link } from "react-router-dom";
 
@@ -24,7 +23,7 @@ function Farewell2025() {
       </Link>
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="/farewell2025/Copy of 3W5A0242.JPG.jpg"
+        src="/farewell2025/Rayner_11-25_pic1.osdovksdokvs'.JPG.jpg"
         authors="Andrea, Hannah, Matthew and Rayner"
         title="Farewell 2025"
       ></HeaderImage>
