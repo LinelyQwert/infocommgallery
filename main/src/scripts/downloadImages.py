@@ -42,7 +42,7 @@ for i, url in enumerate(urls, start=0):
             ext = ".webp"
         else:
             ext = ".jpg"  # default
-
+        print(filename)
         filepath = os.path.join(OUTPUT_DIR, f"{filename}{ext}")
         with open(filepath, "wb") as f_out:
             for chunk in response.iter_content(chunk_size=8192):

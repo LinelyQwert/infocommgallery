@@ -22,13 +22,14 @@ function Farewell2025() {
       >
         {"<-- Back!"}
       </Link>
+      {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="/farewell2025/3W5A0026.JPG.jpg"
-        authors="Infocomm"
+        src="/farewell2025/Copy of 3W5A0242.JPG.jpg"
+        authors="Andrea, Hannah, Matthew and Rayner"
         title="Farewell 2025"
       ></HeaderImage>
-      {/* EDIT THIS FOR NEW PAGES */}
-      <Header title="Farewell 2025" subtext="10 October 2025"></Header>{" "}
+      {/* EDIT THIS FOR NEW PAGES
+      <Header title="Farewell 2025" subtext="10 October 2025"></Header>{" "} */}
       <div className="flex flex-wrap gap-4 items-centre justify-center mt-10 mx-10">
         {shuffledImageList.map((img, index) => {
           return (

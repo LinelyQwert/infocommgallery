@@ -42,7 +42,7 @@ function CardChip(props: CardChipProps) {
           cursor-pointer"
         />
         <div className="flex justify-center">
-          <h1 className="absolute  w-[99%] bg-black/40 -translate-y-[104%] text-white text-start px-4 py-2 font-mono font-bold sm:text-xs  opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+          <h1 className="absolute  w-[99%] bg-black/40 -translate-y-[104%] text-white text-start px-4 py-2 font-mono font-bold text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
             {author === "Unknown" ? (
               <>Taken by Infocomm</>
             ) : (
@@ -52,7 +52,7 @@ function CardChip(props: CardChipProps) {
               href={downlink}
               className=" right-0 -translate-y-1/4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-w-10 absolute"
             >
-              <img src="/download.png" className="w-5-h-5" />
+              <img src="/download.png" className="w-3-h-3 p-2" />
             </a>
           </h1>
         </div>
