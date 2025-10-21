@@ -20,19 +20,13 @@ function Home() {
           <Card
             title="Farewell 2025"
             route="/gallery/farewell2025"
-            src="https://lh3.googleusercontent.com/d/1wBdwDWbTkREFAtLtghTKtU2BwqAZEMIF=w1000"
+            src="/farewell2025/andrea_09-25_pic13.jpg.jpg"
           />
-          <Card
+          {/* <Card
             title="Staff Day 2025"
             route="/gallery/staffday2025"
             src="https://lh3.googleusercontent.com/d/1DDeqAj-J_kBQTwTjPImG5g6CPtWBTP8v=w1000"
-          />
-          <CardChip
-            author=""
-            alt=""
-            src="https://lh3.googleusercontent.com/d/1wBdwDWbTkREFAtLtghTKtU2BwqAZEMIF=w1000"
-            downlink=""
-          />
+          /> */}
         </div>
       </div>
     </>
