@@ -20,8 +20,7 @@ function CardChip(props: CardChipProps) {
           src={src}
           alt={alt}
           onClick={() => setClicked(true)}
-          className="w-[36vw] max-w-[480px] h-[24vw] max-h-[320px] 
-          object-cover rounded-lg shadow-lg border-2 border-white
+          className="object-contain w-auto min-h-[200px] h-[24vw] max-h-[320px] rounded-lg shadow-lg border-2 border-white
           cursor-pointer"
         />
         <div className="flex justify-center">
@@ -35,7 +34,7 @@ function CardChip(props: CardChipProps) {
               href={downlink}
               className=" right-0 -translate-y-1/4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-w-10 absolute"
             >
-              <img src="download.png" className="w-5-h-5" />
+              <img src="/download.png" className="w-5-h-5" />
             </a>
           </h1>
         </div>

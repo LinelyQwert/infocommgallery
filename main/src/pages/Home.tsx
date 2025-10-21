@@ -4,6 +4,8 @@ import Card from "../components/Card.tsx";
 
 import CardChip from "../components/CardChip.tsx";
 
+import Header from "../components/Header.tsx";
+
 function Home() {
   // to do: test gallery chips, make a home icon to go back to home page, use js map func to create cards automatically
   return (
@@ -12,21 +14,10 @@ function Home() {
         id="background"
         className="fixed top-0 left-0 w-full h-full -z-10 bg-zinc-900 bg-[length:400%_400%]"
       >
-        <div className="">
-          <Bar
-            colour="bg-zinc-900"
-            height="h-20"
-            classes="mt-5 flex justify-center flex-col items-center"
-          >
-            <div className="text-white text-3xl text-center font-mono">
-              Temasek JC
-            </div>
-            <br />
-            <div className="text-gray-400 text-sm text-center font-mono">
-              Photos by TJC Infocomm Club
-            </div>
-          </Bar>
-        </div>
+        <Header
+          title="Temasek JC"
+          subtext="Photos by TJC Infocomm Club"
+        ></Header>
         <div className="flex flex-wrap gap-4 items-centre justify-center mt-10 mx-10">
           <Card
             title="Farewell 2025"

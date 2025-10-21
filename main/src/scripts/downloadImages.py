@@ -7,28 +7,25 @@ from urllib.parse import urlparse, parse_qs
 # TODO: MAKE SRC FOLDER FILE NAMES THE AUTHORS BEFORE GOING THRU THIS
 # TO BETTER CREDIT THEM
 # Directory to save images
+# Taken from where the terminal is run from
+# I suggest running from root of project (the directory containing "main" folder)
 OUTPUT_DIR = "./main/src/scripts/outputs/images"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Open JSON to match ids to filenames
-errFlag = 0
+# open file_attr.json
+
 try:
-    with open("./main/src/scripts/scriptResources/id_match_name.json", "r") as f:
-            match_ids = json.load(f)
+    with open("./main/src/scripts/scriptResources/file_attr.json", "r") as f:
+        file_attrs = json.load(f)
 except FileNotFoundError:
-    print("No need to match filenames?")
-    errFlag = 1
+    raise FileNotFoundError("yo why is there not a file_attr.json matching this path: ./main/src/scripts/scriptResources/file_attr.json")
 
-# Read links
-with open("./main/src/scripts/scriptResources/links.txt", "r") as f:
-    urls = [line.strip() for line in f if line.strip()]
+urls = [file["url"] for file in file_attrs.values()]
+filenames = [filename for filename in file_attrs.keys()]
 
-for i, url in enumerate(urls, start=1):
+for i, url in enumerate(urls, start=0):
     try:
-        # Extract Google Drive ID for filename
-        parsed = urlparse(url)
-        query = parse_qs(parsed.query)
-        file_id = query.get("id", [f"file_{i}"])[0]
+        filename = filenames[i]
 
         # Download the image
         response = requests.get(url, stream=True)
@@ -45,13 +42,9 @@ for i, url in enumerate(urls, start=1):
             ext = ".webp"
         else:
             ext = ".jpg"  # default
-        if errFlag == 0:
-            print("Reached!")
-            file_name = match_ids[file_id]
-            filename = os.path.join(OUTPUT_DIR, f"{file_name}{ext}")
-        else:
-            filename = os.path.join(OUTPUT_DIR, f"{file_id}{ext}")
-        with open(filename, "wb") as f_out:
+
+        filepath = os.path.join(OUTPUT_DIR, f"{filename}{ext}")
+        with open(filepath, "wb") as f_out:
             for chunk in response.iter_content(chunk_size=8192):
                 f_out.write(chunk)
 
