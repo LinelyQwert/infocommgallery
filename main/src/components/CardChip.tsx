@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface CardChipProps {
   alt: string;
@@ -13,6 +13,24 @@ function CardChip(props: CardChipProps) {
   const downlink = props.downlink || "about:blank";
   const src = props.src || "";
   const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setClicked(false);
+      }
+    };
+
+    if (clicked) {
+      window.addEventListener("keydown", handleKeyDown);
+    }
+
+    // cleanup when overlay closes
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [clicked]);
+
   return (
     <>
       <div className="relative inline-block group">
