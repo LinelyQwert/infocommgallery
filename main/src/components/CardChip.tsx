@@ -71,7 +71,7 @@ function CardChip(props: CardChipProps) {
             >
               X
             </button>
-            <div className="relative flex border-8 border-red-500">
+            <div className="relative flex">
               <img
                 src={src}
                 alt={alt}
