@@ -14,4 +14,6 @@ Images installed using downloadImages.py should be renamed to the respective eve
 
 Contact me! for any qns or issues faced
 
+To push changes to github pages: npm run deploy
+
 gh pages fix: https://github.com/tschaub/gh-pages/issues/585
