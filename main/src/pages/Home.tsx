@@ -18,7 +18,7 @@ function Home() {
           <Card
             title="Farewell 2025"
             route="/gallery/farewell2025"
-            src="/farewell2025/andrea_09-25_63jpg.jpg"
+            src="farewell2025/andrea_09-25_63jpg.jpg"
           />
           {/* <Card
             title="Staff Day 2025"

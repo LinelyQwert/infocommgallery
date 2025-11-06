@@ -1,7 +1,7 @@
 {
   "name": "main",
   "version": "0.0.0",
-  "homepage": "http://linelyqwert.github.io/infocommgallery/",
+  "homepage": "https://linelyqwert.github.io/infocommgallery/",
   "type": "module",
   "scripts": {
     "dev": "vite",
