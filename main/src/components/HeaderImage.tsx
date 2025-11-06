@@ -21,6 +21,9 @@ function HeaderImage(props: HeaderImageProps) {
         <h1 className="text-white absolute w-[90%] md:text-lg sm:text-md text-left bottom-0 px-6 py-2 font-mono">
           Photos by: {authors}
         </h1>
+        {/* <h1>
+          Share!
+        </h1> */}
       </div>
     </>
   );
