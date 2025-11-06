@@ -4,26 +4,25 @@
 // import './App.css'
 
 import Home from "./pages/Home.tsx";
+
 import About from "./pages/About.tsx";
 
 import Farewell2025 from "./pages/gallery/Farewell2025.tsx";
 import StaffDay2025 from "./pages/gallery/StaffDay2025.tsx";
 
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
 
-        <Route path="/gallery/">
-          <Route path="farewell2025" element={<Farewell2025 />} />
-          <Route path="staffday2025" element={<StaffDay2025 />} />
-        </Route>
-      </Routes>
-    </HashRouter>
+      <Route path="/gallery/">
+        <Route path="farewell2025" element={<Farewell2025 />} />
+        <Route path="staffday2025" element={<StaffDay2025 />} />
+      </Route>
+    </Routes>
   );
 }
 

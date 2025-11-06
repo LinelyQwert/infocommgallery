@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
@@ -29,5 +29,5 @@
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.4"
   },
-  "homepage": "http://linelyqwert.github.io/infocommgallery/home"
+  "homepage": "http://linelyqwert.github.io/infocommgallery/"
 }
