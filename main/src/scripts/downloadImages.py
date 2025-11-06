@@ -3,8 +3,8 @@ import requests
 import json
 from urllib.parse import urlparse, parse_qs
 
-# GET LINKS.txt LINKS AND ID_MATCH_NAME.json from https://colab.research.google.com/drive/1LicffdHBGBONmrCThF4tU06Pxg9mW7xx?usp=sharing
-# TODO: MAKE SRC FOLDER FILE NAMES THE AUTHORS BEFORE GOING THRU THIS
+# GET file_attr.json from https://colab.research.google.com/drive/1LicffdHBGBONmrCThF4tU06Pxg9mW7xx?usp=sharing
+# MAKE SRC FOLDER FILE NAMES THE AUTHORS BEFORE GOING THRU THIS
 # TO BETTER CREDIT THEM
 # Directory to save images
 # Taken from where the terminal is run from

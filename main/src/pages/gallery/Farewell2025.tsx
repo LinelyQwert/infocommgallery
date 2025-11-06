@@ -26,7 +26,7 @@ function Farewell2025() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="/farewell2025/matthew_04-25_pic1sadfa3ewa.jpg.jpg"
+        src="/farewell2025/matthew_04-25_16jpg.jpg"
         authors="Andrea, Hannah, Matthew and Rayner"
         title="Farewell 2025"
       ></HeaderImage>

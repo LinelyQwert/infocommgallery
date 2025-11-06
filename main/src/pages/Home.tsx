@@ -1,7 +1,5 @@
 import Card from "../components/Card.tsx";
 
-import CardChip from "../components/CardChip.tsx";
-
 import Header from "../components/Header.tsx";
 
 function Home() {
@@ -20,7 +18,7 @@ function Home() {
           <Card
             title="Farewell 2025"
             route="/gallery/farewell2025"
-            src="/farewell2025/andrea_09-25_pic13.jpg.jpg"
+            src="/farewell2025/andrea_09-25_63jpg.jpg"
           />
           {/* <Card
             title="Staff Day 2025"
