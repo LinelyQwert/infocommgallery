@@ -31,7 +31,7 @@ function Farewell2025() {
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 
-      <div className="flex flex-wrap gap-4 items-centre justify-center mt-10 mx-10">
+      <div className="flex flex-wrap gap-2 items-centre justify-center mt-10 mx-2">
         {shuffledImageList.map((img, index) => {
           return (
             <CardChip
