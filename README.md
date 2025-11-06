@@ -15,3 +15,5 @@ Images installed using downloadImages.py should be renamed to the respective eve
 Contact me! for any qns or issues faced
 
 for some reason gh pages creates a /dist folder but is looking for a /build folder??? so just rename it after running npm run deploy afterwards to /build
+
+gh pages fix: https://github.com/tschaub/gh-pages/issues/585

@@ -9,11 +9,11 @@ import About from "./pages/About.tsx";
 import Farewell2025 from "./pages/gallery/Farewell2025.tsx";
 import StaffDay2025 from "./pages/gallery/StaffDay2025.tsx";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -23,7 +23,7 @@ function App() {
           <Route path="staffday2025" element={<StaffDay2025 />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
