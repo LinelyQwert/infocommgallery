@@ -17,10 +17,10 @@ function Card(props: CardProps) {
           <img
             src={src}
             alt={title}
-            className={`w-[36vw] max-w-[480px] h-[24vw] max-h-[320px] object-cover rounded-lg shadow-lg border-2 border-white`}
+            className={`w-[50vw] max-w-[480px] h-[50vw] max-h-[320px] object-cover rounded-lg shadow-lg border-2 border-white`}
           />
         </div>
-        <h1 className="text-white text-start mx-4 font-mono font-bold mt-2">
+        <h1 className="text-white text-start mx-4 font-mono font-bold mt-2 md:text-2xl sm:text-xl">
           {title}
         </h1>
       </Link>

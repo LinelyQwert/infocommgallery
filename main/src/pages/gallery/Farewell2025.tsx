@@ -9,7 +9,6 @@ import HeaderImage from "../../components/HeaderImage";
 function Farewell2025() {
   const imageList = Object.values(file_attrs);
   const shuffledImageList = [...imageList].sort(() => Math.random() - 0.5);
-  console.log(imageList);
   return (
     <>
       <div
