@@ -52,7 +52,7 @@ function CardChip(props: CardChipProps) {
               href={downlink}
               className=" right-0 -translate-y-1/4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-w-10 absolute"
             >
-              <img src="/download.png" className="w-3-h-3 p-2" />
+              <img src="download.png" className="w-3-h-3 p-2" />
             </a>
           </h1>
         </div>
@@ -71,12 +71,25 @@ function CardChip(props: CardChipProps) {
             >
               X
             </button>
-            <img
-              src={src}
-              alt={alt}
-              className="max-w-[90vw] max-h-[85vh] rounded-lg shadow-2xl object-contain border border-white/20 transition-transform duration-300"
-              onClick={(e) => e.stopPropagation()} // prevent closing when clicking image
-            />
+            <div className="relative flex border-8 border-red-500">
+              <img
+                src={src}
+                alt={alt}
+                className="relative max-w-[90vw] max-h-[85vh] rounded-lg shadow-2xl object-contain border border-white/20 transition-transform duration-300"
+                onClick={(e) => e.stopPropagation()} // prevent closing when clicking image
+              ></img>
+
+              <a
+                href={downlink}
+                className="max-w-10 absolute top-0 left-0 m-4"
+                onClick={(e) => e.stopPropagation()} // prevent closing when clicking download
+              >
+                <img
+                  src="download.png"
+                  className="w-3-h-3 p-2 bg-black/75 rounded-lg"
+                />
+              </a>
+            </div>
           </div>
         </>
       )}
