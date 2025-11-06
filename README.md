@@ -1,4 +1,4 @@
-yes built using reactjs and vite + REACT ROUTER DOM!!!
+reactjs, vite, react router dom
 
 Do npm install at root to install dependencies
 
