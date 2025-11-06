@@ -1,7 +1,7 @@
 {
   "name": "main",
-  "private": true,
   "version": "0.0.0",
+  "homepage": "http://linelyqwert.github.io/infocommgallery/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,6 +28,5 @@
   "dependencies": {
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.4"
-  },
-  "homepage": "http://linelyqwert.github.io/infocommgallery/"
+  }
 }
