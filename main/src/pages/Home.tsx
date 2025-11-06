@@ -14,7 +14,7 @@ function Home() {
           title="Temasek JC"
           subtext="Photos by TJC Infocomm Club"
         ></Header>
-        <div className="flex flex-wrap gap-4 items-centre justify-center mt-10 mx-10">
+        <div className="flex flex-wrap gap-2 items-centre justify-center mt-10 mx-4">
           <Card
             title="Farewell 2025"
             route="/gallery/farewell2025"
