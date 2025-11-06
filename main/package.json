@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@remix-run/dev": "^2.4.1",
     "@eslint/js": "^9.36.0",
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
@@ -27,6 +28,10 @@
   },
   "dependencies": {
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.4"
+    "react-router-dom": "^7.9.4",
+    "@remix-run/node": "^2.4.1",
+    "@remix-run/react": "^2.4.1",
+    "@remix-run/serve": "^2.4.1",
+    "isbot": "^3.6.8"
   }
 }
