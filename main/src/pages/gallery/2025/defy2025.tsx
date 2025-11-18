@@ -1,12 +1,12 @@
-import CardChip from "../../components/CardChip";
+import CardChip from "../../../components/CardChip";
 
 import { Link } from "react-router-dom";
 
-import file_attrs from "./galleryJSONs/farewell2025.json";
+import file_attrs from "../galleryJSONs/2025/defy2025.json";
 
-import HeaderImage from "../../components/HeaderImage";
+import HeaderImage from "../../../components/HeaderImage";
 
-function Farewell2025() {
+function Defy2025() {
   const imageList = Object.values(file_attrs);
   const shuffledImageList = [...imageList].sort(() => Math.random() - 0.5);
   return (
@@ -25,8 +25,8 @@ function Farewell2025() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="farewell2025/matthew_04-25_16jpg.jpg"
-        authors="Andrea, Hannah, Matthew and Rayner"
+        src="defy2025/unknown_00-00_93.jpg"
+        authors="Yuxin, Hannah, Matthew and Rioson"
         title="Farewell 2025"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
@@ -44,8 +44,10 @@ function Farewell2025() {
           );
         })}
       </div>
+
+      <div className="footer w-[100%] h-40 bg-zinc-900 bg-[length:400%_400%]"></div>
     </>
   );
 }
 
-export default Farewell2025;
+export default Defy2025;

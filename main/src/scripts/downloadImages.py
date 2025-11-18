@@ -5,6 +5,7 @@ from urllib.parse import urlparse, parse_qs
 
 # GET file_attr.json from https://colab.research.google.com/drive/1LicffdHBGBONmrCThF4tU06Pxg9mW7xx?usp=sharing
 # MAKE SRC FOLDER FILE NAMES THE AUTHORS BEFORE GOING THRU THIS
+# or Unknown if not known
 # TO BETTER CREDIT THEM
 # Directory to save images
 # Taken from where the terminal is run from

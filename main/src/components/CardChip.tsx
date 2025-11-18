@@ -43,8 +43,8 @@ function CardChip(props: CardChipProps) {
         />
         <div className="flex justify-center">
           <h1 className="absolute  w-[99%] bg-black/40 -translate-y-[104%] text-white text-start px-4 py-2 font-mono font-bold text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-            {author === "Unknown" ? (
-              <>Taken by Infocomm</>
+            {author.includes("Unknown") ? (
+              <>Taken by Infocomm!</>
             ) : (
               <>Taken by {author}</>
             )}
