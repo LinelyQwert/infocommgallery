@@ -9,6 +9,7 @@ import About from "./pages/About.tsx";
 
 import Farewell2025 from "./pages/gallery/2025/Farewell2025.tsx";
 import Defy2025 from "./pages/gallery/2025/defy2025.tsx";
+import Gradnight2025 from "./pages/gallery/2025/gradnight2025.tsx";
 import Arc2024 from "./pages/arc/Arc2024.tsx";
 
 import { Routes, Route } from "react-router-dom";
@@ -23,8 +24,9 @@ function App() {
       </Route>
       <Route path="gallery/">
         <Route path="2025/">
-          <Route path="farewell2025" element={<Farewell2025 />} />
           <Route path="defy2025" element={<Defy2025 />} />
+          <Route path="farewell2025" element={<Farewell2025 />} />
+          <Route path="gradnight2025" element={<Gradnight2025 />} />
         </Route>
       </Route>
     </Routes>
