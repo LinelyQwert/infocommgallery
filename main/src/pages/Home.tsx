@@ -8,7 +8,7 @@ function Home() {
     <>
       <div
         id="background"
-        className="absolute top-0 left-0 w-full h-fill -z-10 bg-zinc-900 bg-[length:400%_400%] pb-10"
+        className="absolute top-0 left-0 w-full h-fill min-h-[100vh] -z-10 bg-zinc-900 bg-[length:400%_400%] pb-10"
       >
         <Header
           title="Temasek JC"
@@ -18,7 +18,7 @@ function Home() {
           <Card
             title="Grad Night 2025"
             route="/gallery/2025/gradnight2025"
-            src="gradnight2025/unknown_00-00_73.jpg"
+            src="gradnight2025/unknown_00-00_131.jpg"
           />
           <Card
             title="DEFY 2025"

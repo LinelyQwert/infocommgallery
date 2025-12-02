@@ -9,6 +9,7 @@ import HeaderImage from "../../../components/HeaderImage";
 function gradnight2025() {
   const imageList = Object.values(file_attrs);
   const shuffledImageList = [...imageList].sort(() => Math.random() - 0.5);
+  console.log(shuffledImageList);
   return (
     <>
       <div
@@ -25,7 +26,7 @@ function gradnight2025() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="gradnight2025/unknown_00-00_108.jpg"
+        src="gradnight2025/unknown_00-00_163.jpg"
         authors="Rayner"
         title="Grad Night 2025"
       ></HeaderImage>
