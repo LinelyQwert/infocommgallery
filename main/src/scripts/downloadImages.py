@@ -8,7 +8,7 @@ from urllib.parse import urlparse, parse_qs
 # or Unknown if not known
 # TO BETTER CREDIT THEM
 # Directory to save images
-# Taken from where the terminal is run from
+# run in the folder outside of main
 # I suggest running from root of project (the directory containing "main" folder)
 OUTPUT_DIR = "./main/src/scripts/outputs/images"
 os.makedirs(OUTPUT_DIR, exist_ok=True)

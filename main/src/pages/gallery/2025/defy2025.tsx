@@ -27,7 +27,7 @@ function Defy2025() {
       <HeaderImage
         src="defy2025/unknown_00-00_93.jpg"
         authors="Yuxin, Hannah, Matthew and Rioson"
-        title="Farewell 2025"
+        title="DEFY 2025"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 
