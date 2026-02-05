@@ -9,11 +9,11 @@ const Arc2025 = () => {
     <>
       <div
         id="background"
-        className="fixed top-0 left-0 w-full h-full -z-10 bg-zinc-900 bg-[length:400%_400%]"
+        className="absolute top-0 left-0 w-full h-fill min-h-[100vh] -z-10 bg-zinc-900 bg-[length:400%_400%] pb-10"
       >
         <Link
           to="/"
-          className="absolute text-white text-start m-4 px-4 font-mono font-bold bg-zinc-900 z-10"
+          className="absolute lg:text-base text-xs text-white text-start m-4 px-4 font-mono font-bold bg-zinc-900 z-10"
         >
           {"<-- Back!"}
         </Link>
