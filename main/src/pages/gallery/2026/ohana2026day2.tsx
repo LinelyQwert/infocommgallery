@@ -47,7 +47,11 @@ function Ohana2026day2() {
         })}
       </div>
 
-      <div className="footer w-[100%] h-40 bg-zinc-900 bg-[length:400%_400%]"></div>
+      <div className="footer w-[100%] h-40 bg-zinc-900 bg-[length:400%_400%] text-white flex-col flex items-center justify-center font-mono">
+          <p className="text-lg">© TJCINFOCOMM</p>
+          
+          <p className="text-sm"><br></br>powered by hopes and dreams</p>
+        </div>
     </>
   );
 }
