@@ -17,7 +17,7 @@ function Card(props: CardProps) {
           <img
             src={src}
             alt={title}
-            className={`w-[90vw] max-w-[480px] h-[60vw] max-h-[320px] object-cover shadow-lg hover:scale-105 transition-all border-2 border-black/80`}
+            className={`w-[90vw] max-w-[480px] h-[60vw] max-h-[320px] object-cover shadow-lg hover:scale-105 transition-all`}
           />
         </div>
         <h1 className="text-white text-start mx-4 font-mono font-bold mt-2 md:text-2xl sm:text-xl">
