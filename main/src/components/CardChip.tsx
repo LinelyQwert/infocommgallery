@@ -80,7 +80,7 @@ function CardChip(props: CardChipProps) {
           cursor-pointer"
         />
         <div className="flex justify-center">
-          <h1 className="absolute  w-full bg-black/40 -translate-y-[104%] text-white text-start px-4 py-2 font-mono font-bold text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <h1 className="absolute  w-full bg-black/40 -translate-y-full text-white text-start px-4 py-2 font-mono font-bold text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             {displayAuthor.includes("Unknown") ? (
               <>Taken by Infocomm!</>
             ) : (
