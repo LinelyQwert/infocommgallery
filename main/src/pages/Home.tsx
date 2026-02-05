@@ -15,32 +15,36 @@ function Home() {
           subtext="Photos by TJC Infocomm Club"
         ></Header>
         <div className="flex flex-wrap gap-2 items-centre justify-center mt-10 mx-4">
-          <Card
+          {/* <Card
             title="Grad Night 2025"
             route="/gallery/2025/gradnight2025"
             src="gradnight2025/unknown_00-00_131.jpg"
+          /> */}
+          <Card
+            title="OHANA Day 2"
+            route="/gallery/2026/ohana2026day2"
+            src="ohana2026day2/matthew_04-25_52.jpg"
           />
           <Card
-            title="DEFY 2025"
-            route="/gallery/2025/defy2025"
-            src="defy2025/unknown_00-00_1.jpg"
-          />
-          <Card
-            title="Farewell 2025"
-            route="/gallery/2025/farewell2025"
-            src="farewell2025/andrea_09-25_63jpg.jpg"
+            title="OHANA Day 1"
+            route="/gallery/2026/ohana2026day1"
+            src="ohana2026day1/enqi_18-25_10.jpg"
           />
         </div>
 
         {/* Remember to add the archive year path to App.tsx */}
 
-        {/* <div className="mt-20 mb-10 mx-40 underline  text-white lg:text-2xl md:text-xl font-mono items-center justify-center flex">
+        <div className="mt-20 mb-10 mx-40 underline  text-white lg:text-2xl md:text-xl font-mono items-center justify-center flex">
           Past Archives
         </div>
         <div className="mb-40 mx-40 text-white lg:text-2xl md:text-xl font-mono items-center justify-center flex">
-          <Card title="Events of 2024" route="/arc/2024" src="" />
+          <Card title="Events of 2025" route="/arc/2025" src="gradnight2025/unknown_00-00_131.jpg" />
         </div>
-        <div className=" footer w-[100%] h-40 bg-zinc-900 bg-[length:400%_400%]"></div> */}
+        <div className="footer w-[100%] h-40 bg-zinc-900 bg-[length:400%_400%] text-white flex-col flex items-center justify-center font-mono">
+          <p className="text-lg">© TJCINFOCOMM</p>
+          
+          <p className="text-sm"><br></br>powered by hopes and dreams</p>
+        </div>
       </div>
     </>
   );

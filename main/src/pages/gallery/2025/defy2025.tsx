@@ -40,6 +40,8 @@ function Defy2025() {
               alt=""
               author={img.author}
               downlink={img.downlink}
+              images={shuffledImageList}
+              currentIndex={index}
             ></CardChip>
           );
         })}

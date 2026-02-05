@@ -3,12 +3,13 @@ import requests
 import json
 from urllib.parse import urlparse, parse_qs
 
-# GET file_attr.json from https://colab.research.google.com/drive/1LicffdHBGBONmrCThF4tU06Pxg9mW7xx?usp=sharing
+# GET file_attr.json from https://colab.research.google.com/    /1LicffdHBGBONmrCThF4tU06Pxg9mW7xx?usp=sharing
 # MAKE SRC FOLDER FILE NAMES THE AUTHORS BEFORE GOING THRU THIS
 # or Unknown if not known
 # TO BETTER CREDIT THEM
 # Directory to save images
 # run in the folder outside of main
+# MAKE SURE THE FOLDER IS VIEWABLE TO PUBLIC
 # I suggest running from root of project (the directory containing "main" folder)
 OUTPUT_DIR = "./main/src/scripts/outputs/images"
 os.makedirs(OUTPUT_DIR, exist_ok=True)

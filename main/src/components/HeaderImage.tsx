@@ -11,19 +11,21 @@ function HeaderImage(props: HeaderImageProps) {
   return (
     <>
       <div className="text-white w-full flex justify-center relative">
-        <img src={src} className="max-h-[40vh] object-cover w-[90%]"></img>
-        <h1
-          className="text-white bg-gradient-to-b from-white/0
-         to-black/80 absolute w-[90%] text-4xl text-left bottom-0 px-4 py-15 font-mono"
-        >
-          {title}
-        </h1>
-        <h1 className="text-white absolute w-[90%] md:text-lg sm:text-md text-left bottom-0 px-6 py-2 font-mono">
-          Photos by: {authors}
-        </h1>
-        {/* <h1>
-          Share!
-        </h1> */}
+        <div className="bg-gradient-to-b from-0% to-black/20 flex justify-center items-center w-full">
+          <img src={src} className="max-h-[40vh] object-cover w-[100%] -z-10"></img>
+        </div>
+        
+        <div className="absolute bottom-0 w-[90%] px-4 py-4 space-y-2">
+          {/* Title */}
+          <h1 className="text-white text-4xl md:text-4xl text-left font-mono">
+            {title}
+          </h1>
+          
+          {/* Authors */}
+          <h1 className="text-white text-xs md:text-lg text-left font-mono">
+            Photos by: {authors}
+          </h1>
+        </div>
       </div>
     </>
   );
