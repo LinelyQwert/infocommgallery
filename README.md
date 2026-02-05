@@ -17,3 +17,5 @@ Contact me! for any qns or issues faced
 To push changes to github pages: push ur changes, "npm run deploy" in main then access [https://linelyqwert.github.io/infocommgallery/#/gallery/farewell2025](https://linelyqwert.github.io/infocommgallery/#/gallery/farewell2025)
 
 gh pages fix: https://github.com/tschaub/gh-pages/issues/585
+
+If after install you're having issue with vite.config.js not recognising tailwindcss, run npm install -D "@tailwindcss/vite@^4.1.14 tailwindcss@^4.1.18" in main
