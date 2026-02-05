@@ -76,7 +76,7 @@ function CardChip(props: CardChipProps) {
           src={src}
           alt={alt}
           onClick={() => setClicked(true)}
-          className="object-contain w-auto min-h-[200px] h-[24vw] max-h-[320px] shadow-lg border-2 border-black/80
+          className="object-contain w-auto min-h-50 h-[24vw] max-h-80 shadow-lg
           cursor-pointer"
         />
         <div className="flex justify-center">
