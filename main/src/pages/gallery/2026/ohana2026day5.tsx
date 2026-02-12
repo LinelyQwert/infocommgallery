@@ -26,7 +26,7 @@ function Ohana2026day5() {
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
         src="ohana2026day5/andrea_09-25_55.jpg" 
-        authors="Ashley, Chee Hoe, Enqi, Juncheng and Rayner"
+        authors="Andrea, Ashley and Rayner"
         title="OHANA Day 5"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
