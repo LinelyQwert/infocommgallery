@@ -13,6 +13,10 @@ import Gradnight2025 from "./pages/gallery/2025/gradnight2025.tsx";
 import Arc2025 from "./pages/arc/Arc2025.tsx";
 import Ohana2026day1 from "./pages/gallery/2026/ohana2026day1.tsx";
 import Ohana2026day2 from "./pages/gallery/2026/ohana2026day2.tsx";
+import Ohana2026day3 from "./pages/gallery/2026/ohana2026day3.tsx";
+import Ohana2026day4 from "./pages/gallery/2026/ohana2026day4.tsx";
+import Ohana2026day5 from "./pages/gallery/2026/ohana2026day5.tsx";
+import Ccafair2026 from "./pages/gallery/2026/ccafair2026.tsx";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -33,6 +37,10 @@ function App() {
         <Route path="2026/">
           <Route path="ohana2026day1" element={<Ohana2026day1 />} />
           <Route path="ohana2026day2" element={<Ohana2026day2 />} />
+          <Route path="ohana2026day3" element={<Ohana2026day3 />} />
+          <Route path="ohana2026day4" element={<Ohana2026day4 />} />
+          <Route path="ohana2026day5" element={<Ohana2026day5 />} />
+          <Route path="ccafair2026" element={<Ccafair2026 />} />
         </Route>
       </Route>
     </Routes>
