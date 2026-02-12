@@ -2,3 +2,7 @@ node_modules/
 .cache/
 dist/
 build/
+main/node_modules/
+main/dist/
+main/build/
+main/.cache/
