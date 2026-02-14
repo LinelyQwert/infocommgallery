@@ -20,6 +20,21 @@ function Home() {
             route="/gallery/2025/gradnight2025"
             src="gradnight2025/unknown_00-00_131.jpg"
           /> */}
+          {/* <Card
+            title="OFEST 2026"
+            route="/gallery/2026/ofest2026"
+            src="ohana2026day5/rayner_11-25_8.jpg"
+          /> */}
+          {/* <Card
+            title="Games Day 2026"
+            route="/gallery/2026/gamesday2026"
+            src="ohana2026day5/rayner_11-25_8.jpg"
+          /> */}
+          <Card
+            title="Cheerios 2026"
+            route="/gallery/2026/cheerios2026"
+            src="cheerios2026/yuvis_18-25_9.jpg"
+          />
           <Card
             title="OHANA Day 5"
             route="/gallery/2026/ohana2026day5"

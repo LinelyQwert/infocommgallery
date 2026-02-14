@@ -17,6 +17,9 @@ import Ohana2026day3 from "./pages/gallery/2026/ohana2026day3.tsx";
 import Ohana2026day4 from "./pages/gallery/2026/ohana2026day4.tsx";
 import Ohana2026day5 from "./pages/gallery/2026/ohana2026day5.tsx";
 import Ccafair2026 from "./pages/gallery/2026/ccafair2026.tsx";
+import Cheerios2026 from "./pages/gallery/2026/cheerios2026.tsx";
+// import Ofest2026 from "./pages/gallery/2026/ofest2026.tsx";
+// import Gamesday2026 from "./pages/gallery/2026/gamesday2026.tsx";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -41,6 +44,9 @@ function App() {
           <Route path="ohana2026day4" element={<Ohana2026day4 />} />
           <Route path="ohana2026day5" element={<Ohana2026day5 />} />
           <Route path="ccafair2026" element={<Ccafair2026 />} />
+          <Route path="cheerios2026" element={<Cheerios2026 />} />
+          {/* <Route path="ofest2026" element={<Ofest2026 />} /> */}
+          {/* <Route path="gamesday2026" element={<Gamesday2026 />} /> */}
         </Route>
       </Route>
     </Routes>
