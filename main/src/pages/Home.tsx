@@ -15,21 +15,22 @@ function Home() {
           subtext="Photos by TJC Infocomm Club"
         ></Header>
         <div className="flex flex-wrap gap-2 items-centre justify-center mt-10 mx-4">
+          {/* New page card template */}
           {/* <Card
             title="Grad Night 2025"
             route="/gallery/2025/gradnight2025"
-            src="gradnight2025/unknown_00-00_131.jpg"
+            src="gradnight2025/unknown_00-00_131.jpg" <-- cover image, can be changed to any image in the gallery
           /> */}
-          {/* <Card
+          <Card
             title="OFEST 2026"
             route="/gallery/2026/ofest2026"
-            src="ohana2026day5/rayner_11-25_8.jpg"
-          /> */}
-          {/* <Card
+            src="ofest2026/rayner_11-25_38.jpg"
+          />
+          <Card
             title="Games Day 2026"
             route="/gallery/2026/gamesday2026"
-            src="ohana2026day5/rayner_11-25_8.jpg"
-          /> */}
+            src="gamesday2026/yuvis_18-25_50.jpg"
+          />
           <Card
             title="Cheerios 2026"
             route="/gallery/2026/cheerios2026"
