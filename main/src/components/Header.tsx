@@ -13,9 +13,10 @@ function Header(props: HeaderProps) {
       <div className="">
         <Bar
           colour="bg-zinc-900"
-          height="h-20"
+          height="h-fit"
           classes="mt-5 flex justify-center flex-col items-center"
         >
+          <img src="assets/logo.png" className="w-20 h-fit m-4"></img>
           <div className="text-white text-3xl text-center font-mono">
             {title}
           </div>
