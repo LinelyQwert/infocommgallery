@@ -2,11 +2,11 @@
 
 // import { Link } from "react-router-dom";
 
-// import file_attrs from "../galleryJSONs/2025/defy2025.json";  # Edit for new pages
+// import file_attrs from "../galleryJSONs/2026/defy2026.json";  # Edit for new pages
 
 // import HeaderImage from "../../../components/HeaderImage";
 
-// function Defy2025() {
+// function Defy2026() {
 //   const imageList = Object.values(file_attrs);
 //   const shuffledImageList = [...imageList].sort(() => Math.random() - 0.5);
 //   return (
@@ -35,11 +35,13 @@
 //         {shuffledImageList.map((img, index) => {
 //           return (
 //             <CardChip
-//               key={index}
-//               src={img.src}
-//               alt=""
-//               author={img.author}
-//               downlink={img.downlink}
+                // key={index}
+                // src={img.src}
+                // alt=""
+                // author={img.author}
+                // downlink={img.downlink}
+                // images={shuffledImageList}
+                // currentIndex={index}
 //             ></CardChip>
 //           );
 //         })}
@@ -54,5 +56,5 @@
 //   );
 // }
 
-// export default Defy2025;
-// This file has been moved to main/src/pages/gallery/2025/defy2025.tsx
+// export default Defy2026;
+// This file has been moved to main/src/pages/gallery/2026/defy2026.tsx

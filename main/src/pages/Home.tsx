@@ -11,7 +11,7 @@ function Home() {
         className="absolute top-0 left-0 w-full h-fill min-h-[100vh] -z-10 bg-zinc-900 bg-[length:400%_400%] pb-10"
       >
         <Header
-          title="Temasek JC"
+          title="Archive"
           subtext="Photos by TJC Infocomm Club"
         ></Header>
         <div className="flex flex-wrap gap-2 items-centre justify-center mt-10 mx-4">
@@ -21,6 +21,11 @@ function Home() {
             route="/gallery/2025/gradnight2025"
             src="gradnight2025/unknown_00-00_131.jpg" <-- cover image, can be changed to any image in the gallery
           /> */}
+          <Card
+            title="PRE U SEM 2026"
+            route="/gallery/2026/pus2026"
+            src="pus2026/jayden_04-26_12.jpg"
+          />
           <Card
             title="OFEST 2026"
             route="/gallery/2026/ofest2026"
