@@ -3,6 +3,4 @@ node_modules/
 dist/
 build/
 main/node_modules/
-main/dist/
-main/build/
 main/.cache/

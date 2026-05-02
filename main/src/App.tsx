@@ -21,6 +21,7 @@ import Cheerios2026 from "./pages/gallery/2026/cheerios2026.tsx";
 import Ofest2026 from "./pages/gallery/2026/ofest2026.tsx";
 import Gamesday2026 from "./pages/gallery/2026/gamesday2026.tsx";
 import Pus2026 from "./pages/gallery/2026/pus2026.tsx";
+import Reflections2026 from "./pages/gallery/2026/reflections2026.tsx";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="ofest2026" element={<Ofest2026 />} />
           <Route path="gamesday2026" element={<Gamesday2026 />} />
           <Route path="pus2026" element={<Pus2026 />} />
+          <Route path="reflections2026" element={<Reflections2026 />} />
         </Route>
       </Route>
     </Routes>
