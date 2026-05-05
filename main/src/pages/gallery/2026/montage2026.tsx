@@ -2,11 +2,11 @@ import CardChip from "../../../components/CardChip";
 
 import { Link } from "react-router-dom";
 
-import file_attrs from "../galleryJSONs/2026/pus2026.json";
+import file_attrs from "../galleryJSONs/2026/montage2026.json";
 
 import HeaderImage from "../../../components/HeaderImage";
 
-function Pus2026() {
+function Montage2026() {
   const imageList = Object.values(file_attrs);
   const shuffledImageList = [...imageList].sort(() => Math.random() - 0.5);
   return (
@@ -25,9 +25,9 @@ function Pus2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="pus2026/chloe_07-25_95.jpg"
-        authors="Chloe, Hannah, Jayden, Juncheng, Leo and Rayner"
-        title="PRE U SEM March Workshop"
+        src="events/montage2026/bei-en_4d_26.jpg"
+        authors="Bei En, Leo, Pornrit and Yunhan"
+        title="MontaGE"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 
@@ -35,13 +35,13 @@ function Pus2026() {
         {shuffledImageList.map((img, index) => {
           return (
             <CardChip
-              key={index}
-              src={img.src}
-              alt=""
-              author={img.author}
-              downlink={img.downlink}
-              images={shuffledImageList}
-              currentIndex={index}
+                key={index}
+                src={img.src}
+                alt=""
+                author={img.author}
+                downlink={img.downlink}
+                images={shuffledImageList}
+                currentIndex={index}
             ></CardChip>
           );
         })}
@@ -56,4 +56,4 @@ function Pus2026() {
   );
 }
 
-export default Pus2026;
+export default Montage2026;

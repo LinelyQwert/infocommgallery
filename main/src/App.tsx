@@ -23,6 +23,7 @@ import Gamesday2026 from "./pages/gallery/2026/gamesday2026.tsx";
 import Pus2026 from "./pages/gallery/2026/pus2026.tsx";
 import Reflections2026 from "./pages/gallery/2026/reflections2026.tsx";
 import Reverie2026 from "./pages/gallery/2026/reverie2026.tsx";
+import Montage2026 from "./pages/gallery/2026/montage2026.tsx";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -53,6 +54,7 @@ function App() {
           <Route path="pus2026" element={<Pus2026 />} />
           <Route path="reflections2026" element={<Reflections2026 />} />
           <Route path="reverie2026" element={<Reverie2026 />} />
+          <Route path="montage2026" element={<Montage2026 />} />
         </Route>
       </Route>
     </Routes>

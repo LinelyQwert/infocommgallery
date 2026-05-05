@@ -27,7 +27,7 @@ function Ofest2026() {
       <HeaderImage
         src="ofest2026/rayner_11-25_35.jpg" 
         authors="Caleb, Jeriel, Matthew and Rayner"
-        title="OFEST 2026"
+        title="OFEST"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 

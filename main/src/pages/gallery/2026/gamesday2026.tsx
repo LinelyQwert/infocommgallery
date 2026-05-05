@@ -27,7 +27,7 @@ function Gamesday2026() {
       <HeaderImage
         src="gamesday2026/enqi_18-25_3.jpg" 
         authors="Enqi, Harish, Louis, Yunhan and Yuvis"
-        title="Games Day 2026"
+        title="Games Day"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 

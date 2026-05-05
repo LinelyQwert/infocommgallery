@@ -27,27 +27,32 @@ function Home() {
             src="events/reverie2026/rayner_11-25_118.jpg" 
           />
           <Card
-            title="Choir Reflections 2026"
+            title="Reflections XXIII"
             route="/gallery/2026/reflections2026"
             src="events/reflections2026/rayner_11-25_88.jpg" 
           />
           <Card
-            title="PRE U SEM 2026"
+            title="MontaGE"
+            route="/gallery/2026/montage2026"
+            src="events/montage2026/alicia_3a_32.jpg" 
+          />
+          <Card
+            title="PRE U SEM March Workshop"
             route="/gallery/2026/pus2026"
             src="pus2026/jayden_04-26_12.jpg"
           />
           <Card
-            title="OFEST 2026"
+            title="OFEST"
             route="/gallery/2026/ofest2026"
             src="ofest2026/rayner_11-25_38.jpg"
           />
           <Card
-            title="Games Day 2026"
+            title="Games Day"
             route="/gallery/2026/gamesday2026"
             src="gamesday2026/yuvis_18-25_50.jpg"
           />
           <Card
-            title="Cheerios 2026"
+            title="Cheerios"
             route="/gallery/2026/cheerios2026"
             src="cheerios2026/yuvis_18-25_9.jpg"
           />
@@ -62,7 +67,7 @@ function Home() {
             src="ohana2026day4/hannah_08-25_247.jpg"
           />
           <Card
-            title="CCA Fair 2026"
+            title="CCA Fair"
             route="/gallery/2026/ccafair2026"
             src="ccafair2026/chloe_04-25_14.jpg"
           />

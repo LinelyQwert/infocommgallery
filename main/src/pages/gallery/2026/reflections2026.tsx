@@ -27,7 +27,7 @@ function Reflections2026() {
       <HeaderImage
         src="events/reflections2026/rayner_11-25_44.jpg"
         authors="Grace, Hannah, Jayden, Matthew and Rayner"
-        title="CHOIR REFLECTIONS 2026"
+        title="Reflections XXIII"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 

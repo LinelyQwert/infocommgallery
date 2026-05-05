@@ -27,7 +27,7 @@ function Cheerios2026() {
       <HeaderImage
         src="cheerios2026/caleb_13-25_40.jpg" 
         authors="Caleb, Enqi, Rayner, Yunhan and Yuvis"
-        title="Cheerios 2026"
+        title="Cheerios"
       ></HeaderImage>
       {/* EDIT THIS FOR NEW PAGES */}
 
