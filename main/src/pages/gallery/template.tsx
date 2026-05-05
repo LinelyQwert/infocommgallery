@@ -2,11 +2,11 @@
 
 // import { Link } from "react-router-dom";
 
-// import file_attrs from "../galleryJSONs/2026/defy2026.json";  # Edit for new pages
+// import file_attrs from "../galleryJSONs/2026/event2026.json";  # Edit for new pages
 
 // import HeaderImage from "../../../components/HeaderImage";
 
-// function Defy2026() {
+// function Event2026() {
 //   const imageList = Object.values(file_attrs);
 //   const shuffledImageList = [...imageList].sort(() => Math.random() - 0.5);
 //   return (
@@ -25,9 +25,9 @@
 
 //       {/* EDIT THIS FOR NEW PAGES */}
 //       <HeaderImage
-//         src="defy2025/unknown_00-00_93.jpg"
-//         authors="Yuxin, Hannah, Matthew and Rioson"
-//         title="DEFY 2025"
+//         src="events/event2026/unknown_00-00_93.jpg"
+//         authors="authors here"
+//         title="temp title"
 //       ></HeaderImage>
 //       {/* EDIT THIS FOR NEW PAGES */}
 
@@ -56,5 +56,5 @@
 //   );
 // }
 
-// export default Defy2026;
+// export default event2026;
 // This file has been moved to main/src/pages/gallery/2026/defy2026.tsx
