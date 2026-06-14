@@ -22,6 +22,11 @@ function Home() {
             src="gradnight2025/unknown_00-00_131.jpg" <-- cover image, can be changed to any image in the gallery
           /> */}
           <Card
+            title="PUS 2026 @ NUS"
+            route="/gallery/2026/pus2026nus"
+            src="events/pus2026nus/rayner_11-25_18.jpg" 
+          />
+          <Card
             title="Reverie XIII: Genesis"
             route="/gallery/2026/reverie2026"
             src="events/reverie2026/rayner_11-25_118.jpg" 
