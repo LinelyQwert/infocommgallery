@@ -25,7 +25,7 @@ function Ccafair2026() { // EDIT THIS FOR NEW PAGES
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="ccafair2026/rioson_11-25_7.jpg" 
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ccafair2026/rioson_11-25_7.jpg" 
         authors="Chloe, Jerriel and Rioson"
         title="CCA Fair"
       ></HeaderImage>

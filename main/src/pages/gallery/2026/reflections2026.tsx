@@ -25,7 +25,7 @@ function Reflections2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="events/reflections2026/rayner_11-25_44.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/reflections2026/rayner_11-25_44.jpg"
         authors="Grace, Hannah, Jayden, Matthew and Rayner"
         title="Reflections XXIII"
       ></HeaderImage>

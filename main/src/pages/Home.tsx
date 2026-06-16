@@ -24,72 +24,72 @@ function Home() {
           <Card
             title="PUS 2026 @ NUS"
             route="/gallery/2026/pus2026nus"
-            src="events/pus2026nus/rayner_11-25_18.jpg" 
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/pus2026nus/rayner_11-25_18.jpg" 
           />
           <Card
             title="Reverie XIII: Genesis"
             route="/gallery/2026/reverie2026"
-            src="events/reverie2026/rayner_11-25_118.jpg" 
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/reverie2026/rayner_11-25_118.jpg" 
           />
           <Card
             title="Reflections XXIII"
             route="/gallery/2026/reflections2026"
-            src="events/reflections2026/rayner_11-25_88.jpg" 
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/reflections2026/rayner_11-25_88.jpg" 
           />
           <Card
             title="MontaGE"
             route="/gallery/2026/montage2026"
-            src="events/montage2026/alicia_3a_32.jpg" 
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/montage2026/alicia_3a_32.jpg" 
           />
           <Card
             title="PRE U SEM March Workshop"
             route="/gallery/2026/pus2026"
-            src="pus2026/jayden_04-26_12.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/pus2026/jayden_04-26_12.jpg"
           />
           <Card
             title="OFEST"
             route="/gallery/2026/ofest2026"
-            src="ofest2026/rayner_11-25_38.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ofest2026/rayner_11-25_38.jpg"
           />
           <Card
             title="Games Day"
             route="/gallery/2026/gamesday2026"
-            src="gamesday2026/yuvis_18-25_50.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/gamesday2026/yuvis_18-25_50.jpg"
           />
           <Card
             title="Cheerios"
             route="/gallery/2026/cheerios2026"
-            src="cheerios2026/yuvis_18-25_9.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/cheerios2026/yuvis_18-25_9.jpg"
           />
           <Card
             title="OHANA Day 5"
             route="/gallery/2026/ohana2026day5"
-            src="ohana2026day5/rayner_11-25_8.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ohana2026day5/rayner_11-25_8.jpg"
           />
           <Card
             title="OHANA Day 4"
             route="/gallery/2026/ohana2026day4"
-            src="ohana2026day4/hannah_08-25_247.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ohana2026day4/hannah_08-25_247.jpg"
           />
           <Card
             title="CCA Fair"
             route="/gallery/2026/ccafair2026"
-            src="ccafair2026/chloe_04-25_14.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ccafair2026/chloe_04-25_14.jpg"
           />
           <Card
             title="OHANA Day 3"
             route="/gallery/2026/ohana2026day3"
-            src="ohana2026day3/enqi_18-25_86.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ohana2026day3/enqi_18-25_86.jpg"
           />
           <Card
             title="OHANA Day 2"
             route="/gallery/2026/ohana2026day2"
-            src="ohana2026day2/matthew_04-25_52.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ohana2026day2/matthew_04-25_52.jpg"
           />
           <Card
             title="OHANA Day 1"
             route="/gallery/2026/ohana2026day1"
-            src="ohana2026day1/enqi_18-25_10.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ohana2026day1/enqi_18-25_10.jpg"
           />
         </div>
 
@@ -99,7 +99,7 @@ function Home() {
           Past Archives
         </div>
         <div className="mb-40 mx-40 text-white lg:text-2xl md:text-xl font-mono items-center justify-center flex">
-          <Card title="Events of 2025" route="/arc/2025" src="gradnight2025/unknown_00-00_131.jpg" />
+          <Card title="Events of 2025" route="/arc/2025" src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/gradnight2025/unknown_00-00_131.jpg" />
         </div>
         <div className="footer w-[100%] h-40 bg-zinc-900 bg-[length:400%_400%] text-white flex-col flex items-center justify-center font-mono">
           <p className="text-lg">© TJCINFOCOMM</p>

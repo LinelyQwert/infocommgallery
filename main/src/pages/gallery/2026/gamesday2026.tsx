@@ -25,7 +25,7 @@ function Gamesday2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="gamesday2026/enqi_18-25_3.jpg" 
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/gamesday2026/enqi_18-25_3.jpg" 
         authors="Enqi, Harish, Louis, Yunhan and Yuvis"
         title="Games Day"
       ></HeaderImage>

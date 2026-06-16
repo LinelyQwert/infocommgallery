@@ -25,7 +25,7 @@ function Reverie2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="events/reverie2026/rayner_11-25_227.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/reverie2026/rayner_11-25_227.jpg"
         authors="Leo, Rayner and Yuxin"
         title="Reverie XIII: Genesis"
       ></HeaderImage>

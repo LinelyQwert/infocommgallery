@@ -25,7 +25,7 @@ function Pus2026nus() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="events/pus2026nus/rayner_11-25_248.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/pus2026nus/rayner_11-25_248.jpg"
         authors="Andrea, Chloe, Enqi, Hannah, Juncheng, Matthew and Rayner"
         title="PUS 2026 @ NUS"
       ></HeaderImage>

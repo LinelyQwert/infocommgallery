@@ -25,7 +25,7 @@ function Ohana2026day5() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="ohana2026day5/andrea_09-25_55.jpg" 
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ohana2026day5/andrea_09-25_55.jpg" 
         authors="Andrea, Ashley and Rayner"
         title="OHANA Day 5"
       ></HeaderImage>

@@ -25,7 +25,7 @@ function Ofest2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="ofest2026/rayner_11-25_35.jpg" 
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/ofest2026/rayner_11-25_35.jpg" 
         authors="Caleb, Jeriel, Matthew and Rayner"
         title="OFEST"
       ></HeaderImage>

@@ -25,7 +25,7 @@ function Montage2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="events/montage2026/bei-en_4d_26.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/montage2026/bei-en_4d_26.jpg"
         authors="Bei En, Leo, Pornrit and Yunhan"
         title="MontaGE"
       ></HeaderImage>

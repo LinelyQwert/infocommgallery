@@ -25,7 +25,7 @@ function Pus2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="pus2026/chloe_07-25_95.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/pus2026/chloe_07-25_95.jpg"
         authors="Chloe, Hannah, Jayden, Juncheng, Leo and Rayner"
         title="PRE U SEM March Workshop"
       ></HeaderImage>

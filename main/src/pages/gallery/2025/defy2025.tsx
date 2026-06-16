@@ -25,7 +25,7 @@ function Defy2025() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="defy2025/unknown_00-00_93.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/defy2025/unknown_00-00_93.jpg"
         authors="Yuxin, Hannah, Matthew and Rioson"
         title="DEFY 2025"
       ></HeaderImage>

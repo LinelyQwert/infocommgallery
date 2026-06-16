@@ -25,7 +25,7 @@ function Cheerios2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="cheerios2026/caleb_13-25_40.jpg" 
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/cheerios2026/caleb_13-25_40.jpg" 
         authors="Caleb, Enqi, Rayner, Yunhan and Yuvis"
         title="Cheerios"
       ></HeaderImage>

@@ -26,7 +26,7 @@ function gradnight2025() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="gradnight2025/unknown_00-00_163.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/gradnight2025/unknown_00-00_163.jpg"
         authors="Rayner"
         title="Grad Night 2025"
       ></HeaderImage>

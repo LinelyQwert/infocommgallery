@@ -28,17 +28,17 @@ const Arc2025 = () => {
           <Card
             title="Grad Night 2025"
             route="/gallery/2025/gradnight2025"
-            src="gradnight2025/unknown_00-00_131.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/gradnight2025/unknown_00-00_131.jpg"
           />
           <Card
             title="DEFY 2025"
             route="/gallery/2025/defy2025"
-            src="defy2025/unknown_00-00_1.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/defy2025/unknown_00-00_1.jpg"
           />
           <Card
             title="Farewell 2025"
             route="/gallery/2025/farewell2025"
-            src="farewell2025/andrea_09-25_63jpg.jpg"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/farewell2025/andrea_09-25_63jpg.jpg"
           />
         </div>
       </div>
