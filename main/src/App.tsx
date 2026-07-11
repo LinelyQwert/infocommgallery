@@ -27,6 +27,7 @@ import Montage2026 from "./pages/gallery/2026/montage2026.tsx";
 import Pus2026nus from "./pages/gallery/2026/pus2026nus.tsx";
 
 import { Routes, Route } from "react-router-dom";
+import TJCarnival2026 from "./pages/gallery/2026/tjcarnival2026.tsx";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
           <Route path="reverie2026" element={<Reverie2026 />} />
           <Route path="montage2026" element={<Montage2026 />} />
           <Route path="pus2026nus" element={<Pus2026nus />} />
+          <Route path="tjcarnival2026" element={<TJCarnival2026 />} />
         </Route>
       </Route>
     </Routes>

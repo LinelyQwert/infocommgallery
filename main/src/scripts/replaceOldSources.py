@@ -7,9 +7,9 @@ import os
 import json
 
 # directory containing the json files
-JSON_FOLDER = "./main/src/pages/gallery/galleryJSONs/2026"
+JSON_FOLDER = "./main/src/scripts/scriptResources"
 
-json_file = "2025/defy2025.json" # CHANGE THIS: the path of the json file you want to update "year/event.json"
+json_file = "file_attr.json"
 replace_all = True # CHANGE THIS: if true, it will replace all jsons in the folder specified, if false, it will only replace the one specified in json_file
 
 if replace_all:
@@ -32,7 +32,8 @@ for json_file in json_files:
         if old_src.startswith("http"):
             print(f"skipping {key} because it already has the correct url: {old_src}")
             continue
-
+        
+        # CHANGE THIS: make sure the prefix is the repository you're uploading the folders to
         new_src = f"https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/{old_src}"
 
         data[key]["src"] = new_src

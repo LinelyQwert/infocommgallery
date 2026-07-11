@@ -14,7 +14,7 @@ Images installed using downloadImages.py should be renamed to the respective eve
 
 Contact me! for any qns or issues faced
 
-To push changes to github pages: push ur changes, "npm run deploy" in main then access [https://linelyqwert.github.io/infocommgallery/#/gallery/farewell2025](https://linelyqwert.github.io/infocommgallery/#/gallery/farewell2025)
+To push changes to github pages: push ur changes, "npm run deploy" in main then access [https://linelyqwert.github.io/infocommgallery/#/gallery/farewell2025](https://linelyqwert.github.io/infocommgallery/)
 
 gh pages fix for npm run deploy: https://github.com/tschaub/gh-pages/issues/585 -- if got some error saying some name too long
 
