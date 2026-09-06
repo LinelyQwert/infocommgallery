@@ -28,6 +28,8 @@ import Pus2026nus from "./pages/gallery/2026/pus2026nus.tsx";
 
 import { Routes, Route } from "react-router-dom";
 import TJCarnival2026 from "./pages/gallery/2026/tjcarnival2026.tsx";
+import NDObservanceCeremony2026 from "./pages/gallery/2026/ndobservanceceremony2026.tsx";
+import NDC2026 from "./pages/gallery/2026/ndc2026.tsx";
 
 function App() {
   return (
@@ -59,6 +61,8 @@ function App() {
           <Route path="montage2026" element={<Montage2026 />} />
           <Route path="pus2026nus" element={<Pus2026nus />} />
           <Route path="tjcarnival2026" element={<TJCarnival2026 />} />
+          <Route path="ndobservanceceremony2026" element={<NDObservanceCeremony2026 />} />
+          <Route path="ndc2026" element={<NDC2026 />} />
         </Route>
       </Route>
     </Routes>

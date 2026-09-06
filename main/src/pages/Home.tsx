@@ -22,6 +22,16 @@ function Home() {
             src="gradnight2025/unknown_00-00_131.jpg" <-- cover image, can be changed to any image in the gallery
           /> */}
           <Card
+            title="National Day Concert 2026"
+            route="/gallery/2026/ndc2026"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/ndc2026/jayden_04-26_46.jpg" 
+          />
+          <Card
+            title="ND Observance Ceremony 2026"
+            route="/gallery/2026/ndobservanceceremony2026"
+            src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/ndobservanceceremony26/grace_05-26_16.jpg" 
+          />
+          <Card
             title="TJ Carnival 2026"
             route="/gallery/2026/tjcarnival2026"
             src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/tjcarnival2026/jayden_04-26_36.jpg" 

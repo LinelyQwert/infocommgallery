@@ -9,7 +9,7 @@ import json
 # directory containing the json files
 JSON_FOLDER = "./main/src/scripts/scriptResources"
 
-json_file = "file_attr.json"
+json_file = "ndc2026.json"
 replace_all = True # CHANGE THIS: if true, it will replace all jsons in the folder specified, if false, it will only replace the one specified in json_file
 
 if replace_all:
