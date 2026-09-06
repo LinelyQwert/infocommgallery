@@ -25,7 +25,7 @@ function NDObservanceCeremony2026() {
 
       {/* EDIT THIS FOR NEW PAGES */}
       <HeaderImage
-        src="../cropped headers/ndc2026-Jayden_04-26_pic10.jpg"
+        src="https://cdn.jsdelivr.net/gh/JJJwong/tjc-ifc-event-photos@main/public/events/ndobservanceceremony26/grace_05-26_19.jpg"
         authors="Lucas Seng, Ziyuan, Grace, Lucas Leong"
         title="National Day Observance Ceremony 2026"
       ></HeaderImage>
